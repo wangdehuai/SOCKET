@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UIViewController
+#define SOCKET_HOST @"192.168.1.17"
+#define SOCKET_PORT 8085
 
+@interface RootViewController : UIViewController<NSStreamDelegate>
 @end
