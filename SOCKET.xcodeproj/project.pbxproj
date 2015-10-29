@@ -11,6 +11,7 @@
 		792D5FA71BE2797C002CC069 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 792D5FA61BE2797C002CC069 /* AppDelegate.m */; };
 		792D5FA91BE2797C002CC069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792D5FA81BE2797C002CC069 /* Assets.xcassets */; };
 		792D5FAC1BE2797C002CC069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792D5FAA1BE2797C002CC069 /* LaunchScreen.storyboard */; };
+		792D5FB51BE279B1002CC069 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792D5FB41BE279B1002CC069 /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		792D5FA81BE2797C002CC069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		792D5FAB1BE2797C002CC069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		792D5FAD1BE2797C002CC069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792D5FB31BE279B1002CC069 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		792D5FB41BE279B1002CC069 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,8 @@
 			children = (
 				792D5FA51BE2797C002CC069 /* AppDelegate.h */,
 				792D5FA61BE2797C002CC069 /* AppDelegate.m */,
+				792D5FB31BE279B1002CC069 /* RootViewController.h */,
+				792D5FB41BE279B1002CC069 /* RootViewController.m */,
 				792D5FA81BE2797C002CC069 /* Assets.xcassets */,
 				792D5FAA1BE2797C002CC069 /* LaunchScreen.storyboard */,
 				792D5FAD1BE2797C002CC069 /* Info.plist */,
@@ -142,6 +147,7 @@
 			files = (
 				792D5FA71BE2797C002CC069 /* AppDelegate.m in Sources */,
 				792D5FA41BE2797C002CC069 /* main.m in Sources */,
+				792D5FB51BE279B1002CC069 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
