@@ -12,4 +12,8 @@
 #define SOCKET_PORT 8085
 
 @interface RootViewController : UIViewController<NSStreamDelegate>
+{
+    NSInputStream *inputStream;
+    NSOutputStream *outputStream;
+}
 @end

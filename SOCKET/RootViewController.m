@@ -9,10 +9,6 @@
 #import "RootViewController.h"
 
 @interface RootViewController ()
-{
-    NSInputStream *inputStream;
-    NSOutputStream *outputStream;
-}
 @end
 
 @implementation RootViewController
@@ -58,7 +54,7 @@
     //连接服务器
     CFReadStreamRef readStream;
     CFWriteStreamRef writeStream;
-    CFStreamCreatePairWithSocketToHost(NULL,(__bridge CFStringRef) host, port, &readStream, &writeStream);
+    CFStreamCreatePairWithSocketToHost(NULL,(__bridge CFStringRef) SOCKET_HOST, SOCKET_PORT, &readStream, &writeStream);
     inputStream = (__bridge NSInputStream *)(readStream);
     outputStream = (__bridge NSOutputStream *)(writeStream);
     inputStream.delegate = self;
